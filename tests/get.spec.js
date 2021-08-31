@@ -10,7 +10,7 @@ describe('get requests', () => {
             expect(res.body.id).to.be.equal('1');
         });
     });
-    //loaclhost/courses?name=mocha
+    //localhost/courses?name=mocha
     it('get query param name', (done) => {
         request(app)
         .get('/course')
