@@ -16,4 +16,10 @@ describe('First test', () => {
             expect(res.statusCode).to.be.equal(200);
         });
     });
+
+    it('Mocky OK Response', (done) => {
+        request('https://run.mocky.io')
+        .get('/v3/8807d061-404f-4917-8aeb-b1898ddb414a')
+        .expect(200, done);
+    });
 });
