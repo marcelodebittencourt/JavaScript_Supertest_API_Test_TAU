@@ -4,4 +4,9 @@ TAU Course: https://testautomationu.applitools.com/javascript-api-testing/
 
 # Setup
 
-npm install mocha chai supertest nock express
+>npm init
+
+>>test command: mocha '**/*.spec.js'
+
+>npm install mocha chai supertest nock express
+
