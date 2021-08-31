@@ -1,3 +1,5 @@
+![](https://github.com/marcelodebittencourt/js_api_test_supertest_tau/workflows/tests/badge.svg)
+
 # Source
 
 TAU Course: https://testautomationu.applitools.com/javascript-api-testing/
